@@ -1,4 +1,4 @@
-# Modern-Web-Developer-Starter-Kit
+# Starter-Kit-2018
 
 
 So I built this for all the new web developers... My Goal is to save you time from the bullsh*t of spending hours looking for ways to speed up your learning. Sometimes all we want to do is just code.
@@ -36,4 +36,4 @@ On the root of this project run on your terminal
 
 **Start the server**
 
-    npm start
+  yarn watch

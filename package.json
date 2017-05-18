@@ -37,14 +37,11 @@
     "webpack-stream": "^3.2.0"
   },
   "scripts": {
-    "server": "crystal src/rocky.cr",
-    "server build": "crystal build --release src/rocky.cr",
     "bundle": "./node_modules/.bin/webpack",
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",
     "sass": "gulp styles",
-    "js": "gulp webpack",
-    "test": "jest"
+    "js": "gulp webpack"
   },
   "devDependencies": {
     "babel-preset-stage-0": "^6.24.1"
