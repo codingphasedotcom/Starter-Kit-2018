@@ -1,105 +1,39 @@
-# Introduction
-## React Over Crystal, Kemal, & Yarn
-Current version is ```1.1.0```
-See the Full Documentation [http://rocky.codingphase.com/](http://rocky.codingphase.com/)
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# Modern-Web-Developer-Starter-Kit
 
 
-### Welcome to the ROCKY Stack
-I built this as an experiment to put together the best libraries to build a modern yet simple stack.
+So I built this for all the new web developers... My Goal is to save you time from the bullsh*t of spending hours looking for ways to speed up your learning. Sometimes all we want to do is just code.
+(if you are coming from my  [youtube channel CodingPhase ](https://www.youtube.com/channel/UC46wWUso9H5KPQcoL9iE3Ug) I will base all my tutorials from this starter kit)
 
-I chose to base my stack
+I broke it down in simple steps to get you going.
 
- * React - Solid front end framework backed by Facebook
+**Steps**
+---------
 
- * Crystal - A powerful new language with syntax similar to ruby but is as fast as "C"
+**Download or Pull This Repo**
+	Top of this page you can see where it says clone or download
 
- * Kemal - Super light weight http framework made by Serdar Doğruyol
+ **Install Node**
+	https://nodejs.org/en/
 
- * Yarn - The fastest package manager also made by Facebook
+**Install Yarn**
+	https://yarnpkg.com/en/docs/install
 
-## Installation
-Follow the code on the right for the installation commands that you will have to run on your operating systems terminal / console.
+**Download Atom**
+	https://atom.io/
 
-Requirements
+**Install all the atom packages that I own**
 
-### Rocky Project
-```shell
-git clone https://github.com/codingphasedotcom/rocky
-```
+On the root of this project run on your terminal
 
-Download or clone the ROCKY Project
+    apm install --packages-file atom-package-list.txt
 
-[https://github.com/codingphasedotcom/rocky](https://github.com/codingphasedotcom/rocky)
-
-homebrew for mac
-
-## OS X (Mac)
-```shell
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-Homebrew
-
-```shell
-brew update
-brew install crystal-lang
-brew install yarn
-```
-
-Make sure you have homebrew
-
-## Ubuntu / Linux
-```shell
-curl https://dist.crystal-lang.org/apt/setup.sh | sudo bash
-sudo apt-get install crystal
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-```
-
-Debian / Ubuntu
-
-For other OSes and distros check the official documentation.
-
-[https://yarnpkg.com/en/docs/install#linux-tab](https://yarnpkg.com/en/docs/install#linux-tab)
+ **Install all the node packages**
+On the root of this project run on your terminal
 
 
+    yarn
 
 
-## Dependencies
-### Get Crystal Dependencies
-```shell
-#terminal
-shards install
-```
+**Start the server**
 
-Get all the "Backend" crystal dependencies
-
-
-### Get Yarn Dependencies
-```shell
-#terminal
-yarn install
-```
-
-Get all the "Frontend" dependencies
-
-### Get Gulp
-```shell
-npm install --global gulp-cli
-```
-
-Install Gulp to be your task runner.
-
-
-## Getting Started
-```shell
-#terminal
-yarn run server
-```
-
-To test everything is good run the server.
-
-Now if you visit ```http://localhost:3000/``` you should see the welcome home page
+    npm start
