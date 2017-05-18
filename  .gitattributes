@@ -1,4 +1,4 @@
 * linguist-vendored
-* linguist-language=Crystal
-*.js linguist-language=Crystal
+* linguist-language=Javascript
+*.js linguist-language=Javascript
 *.cr linguist-vendored=false

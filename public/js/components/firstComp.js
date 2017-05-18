@@ -50,11 +50,11 @@ var Layout = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'Aligner-item' },
-            _react2.default.createElement('img', { src: '/img/rocky-logo.png' }),
+            _react2.default.createElement('img', { src: '/img/logo.png' }),
             _react2.default.createElement(
               'h1',
               null,
-              'ROCKY STACK'
+              'Starter-Kit-2k18'
             ),
             _react2.default.createElement(
               'div',
@@ -85,12 +85,12 @@ var Layout = function (_Component) {
             _react2.default.createElement(
               'div',
               { className: 'version-num' },
-              'version 1.1.0'
+              'version 2.0.18'
             ),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
               'a',
-              { className: 'github-button', href: 'https://github.com/codingphasedotcom/rocky', 'data-icon': 'octicon-star', 'data-style': 'mega', 'data-count-href': '/codingphasedotcom/rocky/stargazers', 'data-count-api': '/repos/codingphasedotcom/rocky#stargazers_count', 'data-count-aria-label': '# stargazers on GitHub', 'aria-label': 'Star codingphasedotcom/rocky on GitHub' },
+              { className: 'github-button', href: 'https://github.com/codingphasedotcom/Starter-Kit-2018', 'data-icon': 'octicon-star', 'data-style': 'mega', 'data-count-href': '/codingphasedotcom/rocky/stargazers', 'data-count-api': '/repos/codingphasedotcom/rocky#stargazers_count', 'data-count-aria-label': '# stargazers on GitHub', 'aria-label': 'Star codingphasedotcom/rocky on GitHub' },
               'Star'
             )
           )
