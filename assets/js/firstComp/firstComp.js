@@ -13,10 +13,10 @@ class Layout extends Component {
         <div className='Aligner'>
           <div className='Aligner-item'>
             <img src='/img/logo.png' />
-            <h1>Starter-Kit-2k18</h1>
+            <h1>JOES COMPONENT</h1>
             <div className='menu'>
               <ul>
-                <li><a href='http://rocky.codingphase.com' target='new'>Documentation</a></li>
+                <li><a href='http://starterkit.codingphase.com' target='new'>Documentation</a></li>
                 <li><a href='http://www.codingphase.com' target='new'>CodingPhase.Com</a></li>
               </ul>
             </div>

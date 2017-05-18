@@ -54,7 +54,7 @@ var Layout = function (_Component) {
             _react2.default.createElement(
               'h1',
               null,
-              'Starter-Kit-2k18'
+              'JOES COMPONENT'
             ),
             _react2.default.createElement(
               'div',
@@ -67,7 +67,7 @@ var Layout = function (_Component) {
                   null,
                   _react2.default.createElement(
                     'a',
-                    { href: 'http://rocky.codingphase.com', target: 'new' },
+                    { href: 'http://starterkit.codingphase.com', target: 'new' },
                     'Documentation'
                   )
                 ),

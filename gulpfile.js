@@ -11,6 +11,7 @@ const shell = require('gulp-shell')
 gulp.task('default', ['styles', 'webpack', 'browser-sync'], () => {
   gulp.watch('./assets/sass/**/*', ['styles'])
   gulp.watch('./assets/js/**/*', ['webpack'])
+  gulp.watch(['./public/*', '!public/js/**/.#*js', '!public/css/**/.#*css']).on('change', reload)
 })
 
 gulp.task('styles', () => {
