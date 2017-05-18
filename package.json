@@ -1,0 +1,52 @@
+{
+  "name": "RockyBoy",
+  "version": "1.0.0",
+  "description": "Super Cool Framework",
+  "main": "index.js",
+  "author": "joe santos garcia",
+  "license": "MIT",
+  "homepage": "http://rocky.codingphase.com/",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.6.3",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.9",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router": "^4.1.1",
+    "redux": "^3.6.0",
+    "sass-loader": "^6.0.3",
+    "standard": "^10.0.2",
+    "webpack": "^2.5.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "scripts": {
+    "server": "crystal src/rocky.cr",
+    "server build": "crystal build --release src/rocky.cr",
+    "bundle": "./node_modules/.bin/webpack",
+    "production": "./node_modules/.bin/webpack -p",
+    "watch": "gulp",
+    "sass": "gulp styles",
+    "js": "gulp webpack",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

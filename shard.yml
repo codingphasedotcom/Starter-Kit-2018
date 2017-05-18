@@ -1,0 +1,29 @@
+name: rocky
+version: 0.1.0
+
+authors:
+  - JoeSantosGarcia <>
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  commander:
+    github: mrrooijen/commander
+    version: ~> 0.3.3
+
+  kemalyst-model:
+    github: drujensen/kemalyst-model
+  db:
+    github: crystal-lang/crystal-db
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+
+
+targets:
+  rocky:
+    main: src/rocky.cr
+
+crystal: 0.21.1
+
+license: MIT
