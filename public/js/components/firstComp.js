@@ -54,7 +54,7 @@ var Layout = function (_Component) {
             _react2.default.createElement(
               'h1',
               null,
-              'JOES COMPONENT'
+              'Starter-Kit-2k18'
             ),
             _react2.default.createElement(
               'div',
