@@ -1,5 +1,6 @@
 @import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 @import "reset";
+@import "grid/grid12";
 
 * {
   box-sizing: border-box;
@@ -55,18 +56,17 @@ body {
     float: left;
     // background: red;
     display: inline-block;
-    width: 50%;
     text-align: center;
 
     img {
       max-width: 500px;
+      width: 100%;
     }
   }
 
   .info {
     float: left;
     display: inline-block;
-    width: 50%;
 
     h5 {
       display: inline-block;
@@ -139,8 +139,7 @@ body {
         text-transform: uppercase;
         font-size: 10px;
         letter-spacing: 1px;
-        min-width: 49%;
-
+        // min-width: 49%;
         .price {
           font-size: 24px;
           margin-right: 10px;
@@ -160,8 +159,7 @@ body {
         letter-spacing: 1px;
         min-height: 30px;
         position: relative;
-        top: -5px;
-        min-width: 49%;
+        // min-width: 49%;
       }
     }
   }
