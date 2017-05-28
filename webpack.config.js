@@ -8,7 +8,7 @@ const VENDOR_LIBS = [
 
 module.exports = {
   entry: {
-    firstComp: './assets/js/firstComp/firstComp.js',
+    webApp: './assets/js/webApp/webApp.js',
     regularJS: './assets/js/regularJS.js',
     vendor: VENDOR_LIBS
   },
