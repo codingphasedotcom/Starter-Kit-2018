@@ -1,27 +1,38 @@
-import React, {Component} from 'react'
-import ReactDOM from 'react-dom'
-import Header from './components/Header'
-import ContentArea from './components/ContentArea'
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, compose } from 'redux';
+// import { Router, browserHistory } from 'react-router';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import $ from 'jquery';
 
-class Layout extends Component {
-  constructor () {
-    super()
-    this.state = {
-      name: 'Joe',
-      age: 29
-    }
-  }
-  render () {
-    return (
-      <div>
-        <div className={'container'}>
-          <Header />
-          <ContentArea />
-        </div>
-      </div>)
-  }
-}
+import routes from './routes';
 
-const app = document.getElementById('webAppRoot')
+import reducers from './reducers';
 
-ReactDOM.render(<Layout />, app)
+let store = createStore(reducers, {}, compose(
+  applyMiddleware(),
+  window.devToolsExtension ? window.devToolsExtension() : f => f
+));
+
+// const createStoreWithMiddleware = applyMiddleware()(createStore);
+
+
+
+ReactDOM.render(
+  <Provider store={store}>
+  <Router>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/topics">Topics</Link></li>
+      </ul>
+
+      <hr/>
+
+      <Route exact path="/" component={Home}/>
+      <Route path="/about" component={About}/>
+      <Route path="/topics" component={Topics}/>
+</Router>
+  </Provider>
+  , document.getElementById('app'));
