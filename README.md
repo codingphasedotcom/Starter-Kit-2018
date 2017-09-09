@@ -21,12 +21,6 @@ I broke it down in simple steps to get you going.
 **Download Atom**
 	https://atom.io/
 
-**Install all the atom packages that I own**
-
-On the root of this project run on your terminal
-
-    apm install --packages-file atom-package-list.txt
-
  **Install all the node packages**
 On the root of this project run on your terminal
 
