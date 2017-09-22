@@ -15,9 +15,6 @@ I broke it down in simple steps to get you going.
  **Install Node**
 	https://nodejs.org/en/
 
-**Install Yarn**
-	https://yarnpkg.com/en/docs/install
-
 **Download Atom**
 	https://atom.io/
 
@@ -25,9 +22,9 @@ I broke it down in simple steps to get you going.
 On the root of this project run on your terminal
 
 
-    yarn
+    npm install
 
 
 **Start the server**
 
-  yarn watch
+  npm run watch
