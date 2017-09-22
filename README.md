@@ -18,10 +18,8 @@ I broke it down in simple steps to get you going.
 **Download Atom**
 	https://atom.io/
 
- **Install all the node packages** (if you want you can do this with yarn but thats optional)
-On the root of this project run on your terminal
-
-
+ **Install all the node packages** 
+On the root of this project run on your terminal (if you want you can do this with yarn but thats optional)
     npm install
 
 
