@@ -41,7 +41,7 @@ gulp.task('browser-sync', ['styles'], function () {
   browserSync.init({
         server: './public',
         notify: false,
-        open: false
+        open: false //change this to true if you want the broser to open automatically 
     });
 })
 
