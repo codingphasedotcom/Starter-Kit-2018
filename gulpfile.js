@@ -39,7 +39,9 @@ gulp.task('browser-sync', ['styles'], function () {
   // })
 
   browserSync.init({
-        server: './public'
+        server: './public',
+        notify: false,
+        open: false
     });
 })
 
