@@ -21,7 +21,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^3.0.1",
     "gulp-imagemin": "^3.0.3",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.0.0",
     "gulp-shell": "^0.6.3",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.9",
