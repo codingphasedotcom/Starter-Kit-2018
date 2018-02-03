@@ -45,6 +45,7 @@
     "js": "gulp webpack"
   },
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
   }
 }
