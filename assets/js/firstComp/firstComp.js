@@ -8,6 +8,9 @@ class Layout extends Component {
       name: 'Joe'
     }
   }
+  clickedBtn = () => {
+    console.log('swag')
+  }
   render () {
     return (<div className='home'>
         <div className='Aligner'>
@@ -16,6 +19,7 @@ class Layout extends Component {
             <h1>Starter-Kit-2k18</h1>
             <div className='menu'>
               <ul>
+                <div onClick={this.clickedBtn}>clickked this</div>
                 <li><a href='http://starterkit.codingphase.com' target='new'>Documentation</a></li>
                 <li><a href='http://www.codingphase.com' target='new'>CodingPhase.Com</a></li>
               </ul>

@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 97:
+/***/ 98:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32,6 +32,10 @@ var Layout = function (_Component) {
 
     var _this = _possibleConstructorReturn(this, (Layout.__proto__ || Object.getPrototypeOf(Layout)).call(this));
 
+    _this.clickedBtn = function () {
+      console.log('swag');
+    };
+
     _this.state = {
       name: 'Joe'
     };
@@ -62,6 +66,11 @@ var Layout = function (_Component) {
               _react2.default.createElement(
                 'ul',
                 null,
+                _react2.default.createElement(
+                  'div',
+                  { onClick: this.clickedBtn },
+                  'clickked this'
+                ),
                 _react2.default.createElement(
                   'li',
                   null,
@@ -108,4 +117,4 @@ _reactDom2.default.render(_react2.default.createElement(Layout, null), app);
 
 /***/ })
 
-},[97]);
+},[98]);
