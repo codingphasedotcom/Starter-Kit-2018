@@ -69,7 +69,7 @@ var Layout = function (_Component) {
                 _react2.default.createElement(
                   'div',
                   { onClick: this.clickedBtn },
-                  'clickked this'
+                  'clicked this'
                 ),
                 _react2.default.createElement(
                   'li',
